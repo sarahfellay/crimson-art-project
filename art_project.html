@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<!--Modular scrolling-->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+
+	    <!--CSS styling-->
+	    <link rel="stylesheet" type="text/css" href="style.css" />
+	    <link rel="stylesheet" type="text/css" href="onepage-scroll.css" />
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+	</head>
+	
+	<body>
+		<div class='main'>
+			<section class='intro'>
+				<div class='container'>
+					<div class='text'>
+			        <h1>Stolen artwork</h1>
+			        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>	
+
+			        			        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+		        </div>
+		    </section>
+
+			<section class='china'>
+				<div class='container'>
+			        <h1>China</h1>
+			         <div class='text_container'>
+				        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>				        
+			        </div>
+			        <blockquote>"Consectetur adipisicing elit, sed do eiusmod tempor nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'</blockquote>
+		        </div>
+		    </section>
+
+
+			<section class='africa'></section>
+			<section class='south_america'></section>
+		</div>
+
+		<!--Modular scrolling-->
+		<script type="text/javascript">
+		    $(".main").onepage_scroll({
+		    	sectionContainer: "section",
+		     	easing: "ease",
+		     	animationTime: 1000,
+		     	pagination: true,
+		     	updateURL: false
+		    });
+  		</script>
+	</body>
+</html>
