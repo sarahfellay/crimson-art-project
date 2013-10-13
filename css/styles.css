@@ -1,0 +1,22 @@
+.masonry {
+  max-width: 50%
+  }
+
+.item {
+  width:  33%;
+  height: 75px;
+  float: left;
+  border-radius: 10px
+  }
+
+.h1 {
+  height: 100px
+  }
+
+.h2 {
+  height: 150px
+  }
+  
+.grid-sizer {
+  width: 33%
+  }
