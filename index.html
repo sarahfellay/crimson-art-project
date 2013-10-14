@@ -4,6 +4,12 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript">
+      function switchImage (path) {
+        document.getElementById('poop').src = path.slice(4,-1) ;
+      }
+    </script>
+
     <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
@@ -19,17 +25,18 @@
         <div id="container" class="masonry js-masonry"
           data-masonry-options='{ "columnWidth": ".grid-sizer", "itemSelector": ".item" }'>
           <div class="grid-sizer"></div>
-          a<div class="item h1" style="background-size: cover; background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tang_dynasty_2_horses_1_rider.jpg/587px-Tang_dynasty_2_horses_1_rider.jpg')"></div>
-          d<div class="item" style="background-size: cover; background-image: url('http://farm3.staticflickr.com/2097/1951611087_8df9e000fb_z.jpg')"></div>
-          h<div class="item h2" style="background-size: cover; background-image: url('http://chestofbooks.com/flora-plants/flowers/Flower-Garden/images/256-Ixia-Longiflora-Long-FlowerED-Ixia.jpg')"></div>
-          e<div class="item" style="background-size: cover; background-image: url('http://upload.wikimedia.org/wikipedia/commons/1/1c/Tang_Dynasty_circa_700_CE.png')"></div>
-          b<div class="item h1" style="background-size: cover; background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NEWSPAPER_ROCK_IS_A_LARGE_CLIFF_MURAL_OF_ANCIENT_INDIAN_PETROGLYPHS_AND_PICTOGRAPHS,_REMARKABLE_FOR_THE_CLARITY_OF..._-_NARA_-_545671.jpg/640px-NEWSPAPER_ROCK_IS_A_LARGE_CLIFF_MURAL_OF_ANCIENT_INDIAN_PETROGLYPHS_AND_PICTOGRAPHS,_REMARKABLE_FOR_THE_CLARITY_OF..._-_NARA_-_545671.jpg')"></div>
-          f<div class="item" style="background-size: cover; background-image: url('http://4.bp.blogspot.com/-a6nm0cppdCM/T-98BYbQLhI/AAAAAAAAC14/Q2IOdS0xWjY/s1600/chicken.jpg')"></div>
-          i<div class="item" style="background-size: cover; background-image: url('http://sites.psu.edu/mubdimohamad/files/2013/06/tree.jpg')"></div>
-          c<div class="item h1" style="background-size: cover; background-image: url('http://s3-ec.buzzfed.com/static/enhanced/terminal05/2011/12/15/11/enhanced-buzz-11626-1323967951-100.jpg')"></div>
-          j<div class="item" style="background-size: cover; background-image: url('http://www.mhealth360.com/wp-content/uploads/2011/07/orb-spider-web.jpg')"></div>
-          g<div class="item" style="background-size: cover; background-image: url('http://upload.wikimedia.org/wikipedia/commons/c/c1/ELAL_747-200_4X-AHQ_EPWA_24_08_2004.jpg')"></div>
+          <div class="item h1" style="background-image: url('img/100.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/200.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item h2" style="background-image: url('img/206.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/207.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item h1" style="background-image: url('img/302.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/401.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/402.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item h1" style="background-image: url('img/404.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/406.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
+          <div class="item" style="background-image: url('img/408.jpg')" onclick="switchImage(this.style.backgroundImage)"></div>
         </div>
+        <img id="poop" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tang_dynasty_2_horses_1_rider.jpg/587px-Tang_dynasty_2_horses_1_rider.jpg" />
       </section>
     </div>
     	<script type="text/javascript">
