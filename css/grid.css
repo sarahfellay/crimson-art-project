@@ -1,3 +1,6 @@
+/* It should have a white background, not the default gray. */
+section#grid { background: white }
+
 /* The Masonry grid will be vertically and horizontally centered. */
 .masonry {
   width: 600px;

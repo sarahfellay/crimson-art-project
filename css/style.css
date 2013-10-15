@@ -46,8 +46,8 @@ h1 {
 
 /* TITLE PAGE */
 .main section.title {
-  background: url('img/cover_photo.jpg') center top no-repeat #555;
-  background-size: 100%;
+  background: url('../img/cover_photo.jpg') center top no-repeat #555;
+  background-size: cover;
 }
 
 .main section.title .container {
@@ -79,8 +79,8 @@ h1 {
 
 /* INTRODUCTION */
 .main section.intro {
-  background: url('img/cover_photo.jpg') center top no-repeat #555;
-  background-size: 100%;
+  background: url('../img/cover_photo.jpg') center top no-repeat #555;
+  background-size: cover
 }
 
 .main section.intro .container {
@@ -106,8 +106,7 @@ h1 {
 /* CHINA PAGE 1 */
 
 .main section.china1 {
-  /*background: url(img/cat2.jpg) center top no-repeat #555;*/
-  background: url(img/china.svg) left center no-repeat #555;
+  background: url(../img/china.svg) left center no-repeat #555;
   background-size: 45%;
 }
 
@@ -136,7 +135,7 @@ h1 {
 
 /* CHINA PAGE 2*/
 .main section.china2 {
-  background: url('img/mogao.jpg') center top no-repeat #555;
+  background: url('../img/mogao.jpg') center top no-repeat #555;
   background-size: 100%;
 }
 
@@ -165,7 +164,7 @@ h1 {
 
 /* CHINA PAGE 3*/
 .main section.china3 {
-  background: url('img/mogao2.jpg') center top no-repeat #555;
+  background: url('../img/mogao2.jpg') center top no-repeat #555;
   background-size: 100%;
 }
 
@@ -188,7 +187,7 @@ h1 {
 
 /*CHINA PAGE 4*/
 .main section.china4 {
-  background: url('img/mogao.jpg') center top no-repeat #555;
+  background: url('../img/mogao.jpg') center top no-repeat #555;
   background-size: 100%;
 }
 
@@ -201,12 +200,10 @@ h1 {
   background-color: rgba(230,230,230,0.8);
 }
 
-
-
 /* LEGAL */
 
 .main section.legal {
-  background: url('img/indian.png') 85% center no-repeat white;
+  background: url('../img/indian.png') 85% center no-repeat white;
   background-size: 35%;
 }
 
@@ -233,7 +230,7 @@ h1 {
 
 /* BENIN PAGE 1 */
 .main section.benin {
-  background: url(img/africa.svg) 10% center no-repeat #555;
+  background: url(../img/africa.svg) 10% center no-repeat #555;
   background-size: 32%;
 }
 
@@ -259,7 +256,7 @@ h1 {
 
 /* BENIN PAGE 2*/
 .main section.benin2 {
-  background: url('img/benin1.jpg') center top no-repeat #555;
+  background: url('../img/benin1.jpg') center top no-repeat #555;
   background-size: 100%;
 }
 
@@ -284,7 +281,7 @@ h1 {
 
 /* BENIN PAGE 3 */
 .main section.benin3 {
-  background: url('img/benin2.jpg') center top no-repeat #555;
+  background: url('../img/benin2.jpg') center top no-repeat #555;
   background-size: 100%;
 }
 
@@ -301,7 +298,7 @@ h1 {
 
 /* MASKS */
 .main section.masks {
-  background: url(img/mask.png) 12% center no-repeat white;
+  background: url(../img/mask.png) 12% center no-repeat white;
   background-size: 25%;
 }
 
@@ -327,7 +324,7 @@ h1 {
 /* TOTEM */
 
 .main section.totem {
-  background: url('img/totem.jpg') right center no-repeat black;
+  background: url('../img/totem.jpg') right center no-repeat black;
   background-size: 40%;
 }
 

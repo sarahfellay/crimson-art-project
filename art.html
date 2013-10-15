@@ -1,13 +1,17 @@
 <html>
 	<head>
-		<!--Modular scrolling-->
+		<!--JavaScript-->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script><!--Scrolling-->
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script> <!--Masonry-->
+    <script type="text/javascript" src="js/lightbox-2.6.min.js"></script> <!--Lightbox-->
 
-	    <!--CSS styling-->
-	    <link rel="stylesheet" type="text/css" href="style.css" />
-	    <link rel="stylesheet" type="text/css" href="onepage-scroll.css" />
-		<link href='http://fonts.googleapis.com/css?family=Quattrocento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	  <!--CSS styling-->
+	  <link rel="stylesheet" type="text/css" href="css/style.css" />
+	  <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Quattrocento&subset=latin,latin-ext' />
 
 	</head>
 	
@@ -74,6 +78,30 @@
 			    </div>
 		    </section>
 
+      <section id="grid">
+        <!-- Clickable photo-grid, powered by Masonry and Lightbox -->
+        <div id="container" class="masonry js-masonry"
+          data-masonry-options='{ "columnWidth": 75, "itemSelector": ".item" }'>
+          <a href="img/mogao/1.jpg" data-lightbox="china">
+            <img class="item h2" src="img/mogao/1.jpg" /></a>
+          <a href="img/mogao/2.png" data-lightbox="china">
+            <img class="item h2 w2" src="img/mogao/2.png" /></a>
+          <a href="img/mogao/3.jpg" data-lightbox="china">
+            <img class="item" src="img/mogao/3.jpg" /></a>
+          <a href="img/mogao/4.jpg" data-lightbox="china">
+            <img class="item w4" src="img/mogao/4.jpg" /></a>
+          <a href="img/mogao/5.jpg" data-lightbox="china">
+            <img class="item w2" src="img/mogao/5.jpg" /></a>
+          <a href="img/mogao/6.jpg" data-lightbox="china">
+            <img class="item h2 w2" src="img/mogao/6.jpg" /></a>
+          <a href="img/mogao/7.jpg" data-lightbox="china">
+            <img class="item" src="img/mogao/7.jpg" /></a>
+          <a href="img/mogao/8.jpg" data-lightbox="china">
+            <img class="item w2" src="img/mogao/8.jpg" /></a>
+          <a href="img/mogao/9.jpeg" data-lightbox="china">
+            <img class="item h2" src="img/mogao/9.jpeg" /></a>
+        </div>
+      </section>
 
 		    <section class='legal'>
 		    	<div class='container'>
