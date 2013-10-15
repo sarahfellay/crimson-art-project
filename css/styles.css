@@ -1,27 +1,27 @@
+/* The Masonry grid will be vertically and horizontally centered. */
 .masonry {
-  width: 50%;
-  height: 100%;
-  float: left
+  width: 600px;
+  height: 600px;
+  float: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px
   }
 
+/* Each "column" is 75px, though nothing is only one column. 10px for margins are
+ * subtracted from the total of each width and height.
+ */
 .item {
-  width:  33%;
-  background-size: cover;
-  height: 25%;
-  float: left;
-  border-radius: 10px
+  width:  215px;
+  height: 215px;
+  float: right;
+  border-radius: 10px;
+  margin: 5px
   }
 
-.h1 {
-/*  height: 100px*/
-  height: 33.33333333%;
-  }
-
-.h2 {
-/*  height: 150px*/
-  height: 50%;
-  }
-  
-.grid-sizer {
-  width: 33%
-  }
+/* A default item is 3x3, but the height and width can be changed with these classes. */
+.h2 { height: 140px }
+.w4 { width:  290px }
+.w2 { width:  140px }
