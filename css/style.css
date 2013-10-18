@@ -23,38 +23,26 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(100,100,100,0.3);
+    background: rgba(65,146,129,0.3);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   display: none;
 }
 
 body, html {
-      margin: 0;
-      -webkit-font-smoothing: antialiased;
-      background:white;
-      text-align: left;
-      overflow: hidden;
-      -webkit-transition: opacity 400ms;
-      -moz-transition: opacity 400ms;
-      transition: opacity 400ms;
-}
-
-body, .main, html {
-  display: block;
-  position: static;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  float: left;
+  -webkit-font-smoothing: antialiased;
+  background:white;
+  text-align: left;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
   font-family: 'Quattrocento', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: black;
 }
 
 .main p {
   line-height: 160%;
-  font-size: 18px;
   font-weight: 400;
   font-family: 'Quattrocento', sans-serif;
 }
@@ -106,12 +94,19 @@ a, a:visited {
   width: 200px;
 }
 
+section {
+  position: static;
+  width: 100%;
+  height:100%;
+}
+
 .container h1 {
   letter-spacing: -1px;
   font-weight: 100;
   font-size: 60px;
   text-align: left;
   font-family: 'Bebas', sans-serif;
+  word-spacing: 10px;
   margin: 0;
 }
 
@@ -124,7 +119,7 @@ a, a:visited {
 }
 
 .attr {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-family: 'Lato', sans-serif;
   position: absolute;
   bottom: 7px;
@@ -179,6 +174,7 @@ a, a:visited {
   font-family: 'Bebas', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  word-spacing: 4px;
   color: #555;
   text-align: right;
 }
