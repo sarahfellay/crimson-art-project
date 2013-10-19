@@ -1,5 +1,6 @@
 <html>
 	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--JavaScript-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script> <!--Lightbox-->
@@ -16,6 +17,9 @@
 	</head>
 	
 	<script type="text/javascript">
+      if (screen.width < 800) { 
+          window.location = 'mobile.html';
+      }
 
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-327124-1']);
