@@ -1,0 +1,397 @@
+/* Custom Stylesheet */
+
+@font-face
+{
+  font-family: Bebas;
+  src: url('fonts/Bebas.ttf');
+}
+
+::selection {
+  background: rgba(65,146,129,0.3); /* Safari */
+  }
+::-moz-selection {
+  background: rgba(65,146,129,0.3); /* Firefox */
+}
+
+/* Let's get this party started */
+/* ::-webkit-scrollbar { */
+/*     width: 12px; */
+/*     padding: 0 10px; */
+/* } */
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb { */
+/*     -webkit-border-radius: 10px; */
+/*     border-radius: 10px; */
+/*     background: rgba(100,100,100,0.3); */
+/* } */
+/* ::-webkit-scrollbar-thumb:window-inactive { */
+/*   display: none; */
+}
+
+body, html {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      background:white;
+      text-align: left;
+      -webkit-transition: opacity 400ms;
+      -moz-transition: opacity 400ms;
+      transition: opacity 400ms;
+}
+
+body {
+    margin: 0;
+}
+
+body, .main, html {
+  display: block;
+  position: static;
+  padding: 0;
+  font-family: 'Quattrocento', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.main {
+    width: 100%;
+}
+
+.main p {
+  line-height: 160%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Quattrocento', sans-serif;
+  padding-left: 6px;
+}
+
+a:hover {
+  color: rgb(65,146,129);
+  text-decoration: underline;
+}
+
+a, a:visited {
+  color: rgb(65,146,129);
+  text-decoration: none;
+}
+
+.gray-opaque {
+  background-color: rgba(230,230,230,0.95);
+}
+
+.white-translucent {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.container.white-text {
+  color: white;
+}
+
+.text-right {
+  float: right;
+  max-width: 650px;
+  margin-right: 3%;
+}
+
+.text-left {
+  float: left;
+  max-width: 650px;
+  margin-left: 3%;
+}
+
+#logo {
+  float: right;
+  background-color: #ba0600;
+  z-index: 10;
+}
+
+#logo img {
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.container h1 {
+  letter-spacing: -1px;
+  word-spacing: 10px;
+  font-weight: 100;
+  font-size: 54px;
+  text-align: left;
+  font-family: 'Bebas', sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 20px 3%;
+  color: black;
+  /* max-height: 90%; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.attr {
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom: 7px;
+  padding: 7px;
+  max-width: 20%;
+  color: rgb(65,146,129);
+  text-align: justify;  
+  display: none;
+}
+
+@media(max-width: 1000px) {
+  .attr {
+  display: none;
+  }
+}
+
+.attr-left {
+  left: 7px;
+}
+
+.attr-right {
+  right: 7px;
+}
+
+/* TITLE PAGE */
+.main section {
+    position: relative;
+    margin: 0;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* height: 1000px; */
+}
+
+.main section.title {
+  background: url('../mob_img/cover_photo.jpg') center center no-repeat white;
+  background-size: cover;
+  height: 502px;
+}
+
+.main section.title .container {
+  /* margin-top: 50px; */
+  padding: 20px 3%;
+  width: 94%;
+  clear: right;
+  position: absolute;
+  top: 213px;
+}
+.main section.title .container .text {
+    max-width: 633px;
+}
+
+.main section.title .container h1 {
+  font-size: 3em;
+  font-weight: 400;
+  color: rgb(65,146,129);
+  margin: 0;
+}
+
+.main section.title .container h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #555;
+}
+
+.main section.title .container h3 {
+  font-family: 'Bebas', sans-serif;
+  word-spacing: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  text-align: right;
+}
+
+/* INTRODUCTION */
+.main section.intro {
+  /* background: url('../mob_img/cover_photo.jpg') center top no-repeat white; */
+  background-size: cover;
+}
+
+.main section.intro .container {
+    /* max-width: 700px; */
+}
+
+.main img.section-img {
+    width: 100%;
+}
+
+/* CHINA PAGE 1 */
+
+.main section.china-img {
+  background: url(../mob_img/china.svg) center center no-repeat #555;
+  background-size: 100%;
+  height: 400px;
+}
+
+.main section.china1 .container {
+  background-color: rgba(100,100,100,0.8);
+}
+
+/* CHINA PAGE 2*/
+.main section.china2 {
+  /* background: url('../mob_img/mogao.jpg') center top no-repeat white; */
+  /* background-size: cover; */
+}
+
+
+/* CHINA PAGE 3*/
+.main section.china3 {
+  /* background: url('../mob_img/mogao2.jpg') center top no-repeat white; */
+  /* background-size: cover; */
+}
+
+.main section.china3 .container blockquote {
+  font-size: 40px;
+  font-family: 'Bebas', serif;
+}
+
+
+
+
+/*CHINA PAGE 4*/
+.main section.china4 {
+  background: url('../mob_img/mogao.jpg') center top no-repeat white;
+  background-size: cover;
+}
+
+
+/* LEGAL */
+
+.main section.legal {
+  /* background: url('../mob_img/indian.png') 85% center no-repeat white; */
+  /* background-size: 35%; */
+}
+
+
+/* BENIN PAGE 1 */
+.main section.benin {
+  /* background: url('../mob_img/benin2.jpg') center top no-repeat white; */
+  /* background-size: cover; */
+}
+
+
+/* BENIN PAGE 2*/
+.main section.benin2 {
+  /* background: url('../mob_img/benin1.jpg') center top no-repeat white; */
+  background-size: cover;
+}
+
+
+/* BENIN PAGE 3 */
+.main section.benin-img {
+  background: url(../mob_img/africa.svg) center no-repeat;
+  background-color: rgba(100,100,100,0.8);
+  background-size: 75%;
+  height: 400px;
+}
+
+.main section.benin3 {
+  /* background: url(../mob_img/africa.svg) 10% center no-repeat #555; */
+  /* background-size: 52%; */
+}
+
+.main section.benin3 .container {
+  background-color: rgba(100,100,100,0.8);
+}
+
+
+/* MASKS */
+.main section.masks {
+  /* background: url(../mob_img/mask.png) 20% center no-repeat white; */
+  /* background-size: 25%; */
+}
+
+
+/* TOTEM */
+
+.main section.totem {
+  /* background: url('../mob_img/totem.jpg') right center no-repeat black; */
+  /* background-size: 40%; */
+}
+
+.main section.totem p {
+  font-size: 17px;
+}
+
+
+/* OUTRO 1 */
+
+.main section.outro1 {
+  /* background: url('../mob_img/fogg.jpg') right center no-repeat white; */
+  /* background-size: cover; */
+}
+
+
+/* OUTRO 2 */
+
+.main section.outro2 {
+  /* background: url('../mob_img/peabody.jpg') right center no-repeat white; */
+  /* background-size: cover; */
+}
+
+
+body .header h1 {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body .nav-top span.right a {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body.viewing-page-2 .header h1, body.viewing-page-2 .nav-top span.right a {
+  color: black;
+}
+
+.main section.page3 .page_container {
+  position: absolute;
+  margin-left: -325px;
+  left: 50%;
+  top: 40%;
+  margin-bottom: 50px;
+  max-width: 650px;
+}
+
+.main section.page3 .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+#last {
+  /* background: url('../mob_img/cover_photo.jpg') right center no-repeat white; */
+  /* background-size: cover; */
+}
+
+#article-comments {
+  width: 50%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+
+/*
+.main section.china blockquote {
+  max-width: 200px;
+  float: left;
+  margin-top: 25%;
+  border-left: 1px dashed #999;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: 'Bebas', serif;
+  text-align: left;
+}
+*/
+
+#article-comments {
+    width: 90%;
+    min-width: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
